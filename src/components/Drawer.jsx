@@ -12,7 +12,7 @@ function Hero({ s, zone, compact, onClose, onBack }) {
       <div className="cap">{[s.ville, zone && `Pôle ${zone.name}`].filter(Boolean).join(' · ') || ' '}</div>
       <div className="badges">
         <span className="badge"><CatIcon cat={s.cat} size={11} />Marché moderne</span>
-        <EtatBadge s={s} />
+        {/* <EtatBadge s={s} /> */}
       </div>
     </div>
   );
